@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Begin.cpp">
+    <ClCompile Include="Basic_Function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Call_Value_Function.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
