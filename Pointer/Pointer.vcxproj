@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8F5AF8B6-870A-4D33-9897-E42C01CD7D19}</ProjectGuid>
+    <ProjectGuid>{3165EA2A-E2A6-4915-BAA8-5D58E6958B83}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Function</RootNamespace>
+    <RootNamespace>Pointer</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -87,7 +87,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -101,7 +101,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -146,9 +146,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Basic_Function.cpp" />
-    <ClCompile Include="Call_By_Pointer.cpp" />
-    <ClCompile Include="Call_Value_Function.cpp" />
+    <ClCompile Include="Array_Of_Pointers.cpp" />
+    <ClCompile Include="Basic_Pointer.cpp" />
+    <ClCompile Include="Null_Pointer.cpp" />
+    <ClCompile Include="Passing_Pointers_To_Functions.cpp" />
+    <ClCompile Include="Pointer_Arithmetic.cpp" />
+    <ClCompile Include="Pointer_To_Pointer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
