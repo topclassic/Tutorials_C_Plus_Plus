@@ -19,7 +19,7 @@ void swap(char *one, char *two, char *three) {
 int main() {
 
 	char one[6] = "one"; // one[6] equals three[6] for coppy data
-	char two[4] = "two"; // 4 - 1 = 3 character ( 1 is \0)
+	char two[4]	= "two"; // 4 - 1 = 3 character ( 1 is \0)
 	char three[6] = { 't','h','r','e','e','\0' }; // \0 end text
 
 	cout << "After Swap: " << one << " " << two << " " << three << endl;

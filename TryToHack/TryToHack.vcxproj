@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3165EA2A-E2A6-4915-BAA8-5D58E6958B83}</ProjectGuid>
+    <ProjectGuid>{5EBBF773-A7F0-4D96-8794-620A059C9A3B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Pointer</RootNamespace>
+    <RootNamespace>TryToHack</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,13 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Array_Of_Pointers.cpp" />
-    <ClCompile Include="Basic_Pointer.cpp" />
-    <ClCompile Include="Null_Pointer.cpp" />
-    <ClCompile Include="Passing_Pointers_To_Functions.cpp" />
-    <ClCompile Include="Pointer_Arithmetic.cpp" />
-    <ClCompile Include="Pointer_To_Pointer.cpp" />
-    <ClCompile Include="Return_Pointer_From_Functions.cpp" />
+    <ClCompile Include="Natphenu_Code.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

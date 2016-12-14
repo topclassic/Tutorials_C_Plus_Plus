@@ -22,7 +22,6 @@ int * getRandom() {
 int main() {
 	// a pointer to an int.
 	int *p;
-
 	p = getRandom();
 
 	for (int i = 0; i < 10; i++) {

@@ -15,25 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Basic_Pointer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Null_Pointer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointer_Arithmetic.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Array_Of_Pointers.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointer_To_Pointer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Passing_Pointers_To_Functions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Return_Pointer_From_Functions.cpp">
+    <ClCompile Include="ReadAndWrite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
